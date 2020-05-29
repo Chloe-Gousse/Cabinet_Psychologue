@@ -150,7 +150,7 @@
                                     <div class="theme-info">
                                         <h4 class="theme-title">Trouble du Spectre de l'Autisme</h4>
                                         <p class="theme-description">Je pratique les diagnostics à tous les âges de la vie, enfants, adolescents, adultes, dont le syndrome d’Asperger, ce dernier terme étant toujours utilisé alors que depuis le DSM5 (2013, en France), il fait également partie des TSA.</p>
-                                        <p class="theme-tags"><a href="../php/autisme.tpl.php">Lire la suite</a></p>
+                                        <p class="theme-link"><a href="#autisme" class="active"><i class="fa fa-comments"></i> Lire la suite</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -166,7 +166,7 @@
                                         <h4 class="theme-title">Trouble de déficit de l'attention hyperactivité</h4>
                                         <p class="theme-description">Je pratique le test cognitif TEA-Ch pour les enfants de 6 à 14 ans permet de diagnostiquer un trouble attentionnel et d'identifier quelle modalité est déficitaire.
                                         </p>
-                                        <p class="theme-tags"><a href="#">Lire la suite</a></p>
+                                        <p class="theme-link"><a href="#tsa"><i class="fa fa-comments"></i> Lire la suite</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                                     <div class="theme-info">
                                         <h4 class="theme-title">Troubles Anxieux</h4>
                                         <p class="theme-description">Une personne sur dix souffre de troubles anxieux ou de panique. Entre 20% et 30% des adolescents et des jeunes adultes souffrent d’un trouble anxieux.</p>
-                                        <p class="theme-tags"><a href="#">Lire la suite</a></p>
+                                        <p class="theme-link"><a href="#">Lire la suite</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +196,7 @@
                                     <div class="theme-info">
                                         <h4 class="theme-title">Groupe de méditation</h4>
                                         <p class="theme-description">Formée à la méditation en pleine conscience et donc la pratiquant quotidiennement depuis 5 ans, j’ai pu relever combien cette pratique attentionnelle peut aider dans la vie de tout un chacun.</p>
-                                        <p class="theme-tags"><a href="#">Lire la suite</a></p>
+                                        <p class="theme-link"><a href="#">Lire la suite</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -206,6 +206,44 @@
                     </div>
                 </section>
                 <!--Fin Themes-->
+
+
+
+<!--Article-->
+<section class="article" id="autisme">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Article 1 </h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                        <p> Test 1</p>
+
+                        </div>
+                    </div>
+</section>
+<!--Fin article-->
+
+<!--Article-->
+<section class="article" id="tsa">
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-title padd-15">
+                                <h2>Article 2</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                        <p> Test 2</p>
+
+                        </div>
+                    </div>
+</section>
+<!--Fin article-->
 
 
 <!--Formulaire-->
