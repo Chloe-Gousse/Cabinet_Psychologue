@@ -563,6 +563,93 @@ body {
 }
 
 
+
+/* Autisme */
+
+#autisme {
+    background-color: white;
+}
+
+.article .container {
+    padding-bottom: 40px;
+}
+
+.article article {
+    max-width: 80%;
+    text-align: justify;
+}
+
+.article .article-img {
+    width: 80%;
+
+    position: relative;
+    overflow: hidden;
+
+    border: 1px solid #d4d4e3;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.article .article-img img {
+    width: 100%;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.article article p {
+    color: #504e70;
+}
+
+.article article h3 {
+    font-size: 25px;
+    color: firebrick;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    position: relative;   
+}
+
+.article article h4 {
+    font-size: 20px;
+    color: sandybrown;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    position: relative;   
+}
+
+.article article span{
+    color: firebrick;
+    text-align: center;
+    font-weight: 500;
+}
+
+.article article dfn {
+    font-style: none;
+}
+
+.article article .article-links{
+    border: 1px solid #d4d4e3;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact */
 
 #contact {
