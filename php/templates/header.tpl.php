@@ -25,7 +25,8 @@
 
             <header>
                 <div class="logo">
-                    <a href="#">Véronique Goussé</a>
+                <img src="../images/Accueil/logo.png" alt="logo">
+                    <h2>Véronique Goussé</h2>
                 </div>
 
                 <div class="nav-toggler">
@@ -35,7 +36,7 @@
                 <!--Nav-->
                 <nav>
                     <ul class="nav">
-                        <li><a href="#home" class="active"><i class="fa fa-home"></i> Accueil</a></li>
+                        <li><a href="#home"><i class="fa fa-home"></i> Accueil</a></li>
                         <li><a href="#service"><i class="fa fa-pencil"></i>Pratiques</a></li>
                         <li><a href="#theme"><i class="fa fa-paste"></i>Thématiques</a></li>
                         <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>

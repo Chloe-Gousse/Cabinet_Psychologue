@@ -1,7 +1,7 @@
 <?php
 require 'php/_inc.php';
 $errors = [];
-$emails = ['contact@local.dev', 'depannage@local.dev', 'heimerdinger@local.dev'];
+$emails = ['goussechloe@gmail.com', 'goussechloe@gmail.com', 'goussechloe@gmail.com'];
 
 $validator = new Validator($_POST);
 $validator->check('name', 'required');
