@@ -1,5 +1,5 @@
 <!--Article-->
-<section class="article section" id="hyperactivite">
+<section class="article" id="hyperactivite">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -9,7 +9,10 @@
 
                         <div class="row">
                             
-                            
+                                <div class="article-img">
+                                    <img src="../images/Thematiques/Articles/article_hyperactivite_resize" alt="article_hyperactivite">
+                                </div>
+
                             <article>
 
                                 <p><strong>Le Trouble du Déficit de l’Attention, avec ou sans hyperactivité (TDA-H) est un trouble neurodéveloppemental chronique.</strong></p>
@@ -52,11 +55,14 @@
 
                                 <br><p><cite>[1] Renvoi au site TDA-H Belgique</cite></p>
 
+
+                                <div class="article-back">
+                                <a href="#theme" id="article-back-button"> Retour </a>
+                                </div>
+
                                 </article>
 
-                                ​<div class="article-img">
-                                    <img src="../images/Thematiques/Articles/article_hyperactivite_resize" alt="article_hyperactivite">
-                                </div>
+                               
 
                             
 

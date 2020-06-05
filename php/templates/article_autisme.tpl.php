@@ -1,5 +1,5 @@
 <!--Article-->
-<section class="article section" id="autisme">
+<section class="article" id="autisme">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -79,6 +79,9 @@
 
                                 </div>
 
+                                <div class="article-back">
+                                <a href="#theme" id="article-back-button"> Retour </a>
+                                </div>
                             </article>
 
                             

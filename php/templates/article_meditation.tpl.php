@@ -1,5 +1,5 @@
 <!--Article-->
-<section class="article section" id="meditation">
+<section class="article" id="meditation">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -46,6 +46,10 @@
 
                                     <p>DE 18H15 à 19h30</p>
 
+                                </div>
+
+                                <div class="article-back">
+                                <a href="#theme" id="article-back-button"> Retour </a>
                                 </div>
 
                             </article>

@@ -1,5 +1,5 @@
 <!--Article-->
-<section class="article section" id="troubles">
+<section class="article" id="troubles">
                     <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -30,6 +30,10 @@
 
                                 <p><span>Des possibilités de traiter ces problèmes existent ; le psychologue peut travailler en face à face avec l'enfant, et/ou avec l'un (ou les deux) parent(s). C'est de toutes les façons un travail à poursuivre à la maison et il faut se fixer quelques séances pour bien comprendre ce qui se passe !</span>
                                 <br>
+
+                                <div class="article-back">
+                                <a href="#theme" id="article-back-button"> Retour </a>
+                                </div>
 
                                 </article>
 
