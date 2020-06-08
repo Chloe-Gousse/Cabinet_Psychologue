@@ -1,5 +1,5 @@
 <?php
-    include '../php/_inc.php';
+    include './php/_inc.php';
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +9,7 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
@@ -25,7 +25,7 @@
 
             <header>
                 <div class="logo">
-                <img src="../images/Accueil/logo.png" alt="logo">
+                <img src="./images/Accueil/logo.png" alt="logo">
                     <h2>Véronique Goussé</h2>
                 </div>
 
@@ -44,3 +44,14 @@
                 </nav>
                 <!--Nav-->
             </header>
+
+            <!--Copyright-->
+            <footer>
+                <div class="copyright-text">
+                   <p> &copy; 2020 Véronique Goussé </p>
+                    <p> Photo by Andrew Seaman & Margarita Terekhova on Unsplash </p>
+                </div>
+            </footer>
+            <!--Copyright-->
+
+        </div>

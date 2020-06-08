@@ -6,5 +6,5 @@ function dd($var){
     die();
 }
 
-require '../php/class/Form.php';
-require '../php/class/Validator.php';
+require 'class/Form.php';
+require 'class/Validator.php';

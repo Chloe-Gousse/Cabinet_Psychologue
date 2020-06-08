@@ -8,42 +8,53 @@
                         </div>
 
                         <div class="row">
-
-                            <div class="contact-form">
-
-                                <?php if(array_key_exists('errors', $_SESSION)): ?>
-                                    <div class="alert alert-danger">
-                                        <?= implode('<br>', $_SESSION['errors']); ?>
-                                    </div>
-                                <?php endif; ?>
-                                <?php if(array_key_exists('success', $_SESSION)): ?>
-                                    <div class="alert alert-success">
-                                        Votre email a bien été envoyé
-                                    </div>
-                                <?php endif; ?>
+                    
+                        <div class="contact-form">
 
 
-                                <form action="post_contact.php" method="POST">
-                                    <?php $form = new Form(isset($_SESSION['inputs']) ? $_SESSION['inputs'] : []); ?>
-                                    <div class="row">
-                                        <div class="col-xs-6">
-                                            <?= $form->text('name', 'Votre Nom'); ?>
+                                <div class="starter-template">
+
+                                    <?php if(array_key_exists('errors', $_SESSION)): ?>
+                                        <div class="alert-danger">
+                                            <?= implode('<br>', $_SESSION['errors']); ?>
                                         </div>
-                                        <div class="col-xs-6">
-                                            <?= $form->email('email', 'Votre Email'); ?>
+                                    <?php endif; ?>
+                                    <?php if(array_key_exists('success', $_SESSION)): ?>
+                                        <div class="alert-success">
+                                            Votre email a bien été envoyé
                                         </div>
+                                    <?php endif; ?>
 
-                                        <div class="col-xs-12">
-                                            <?= $form->subject('subject', 'Votre Sujet'); ?>
-                                        </div>
+
+                                    <form action="post_contact.php" method="POST">
+                                        <?php $form = new Form(isset($_SESSION['inputs']) ? $_SESSION['inputs'] : []); ?>
+
                                         
-                                        <div class="col-xs-12">
-                                            <?= $form->textarea('message', 'Votre message'); ?>
-                                            <?= $form->submit('Envoyer'); ?>
+
+                                            <div class="row space-between">
+                                                <div class="col-6">
+                                                    <?= $form->text('name', 'Votre Nom'); ?>
+                                                </div>
+                                                <div class="col-6">
+                                                    <?= $form->email('email', 'Votre Email'); ?>
+                                                </div>
+                                                <div class="col-4 select">
+                                                    <?= $form->select('service', 'Service', ['Contact', 'Dépanage', 'Heimerdinger']); ?>
+                                                </div>
+                                                <div class="col-12">
+                                                    <?= $form->textarea('message', 'Votre message'); ?>
+                                                
+                                                
+                                                    <?= $form->submit('Envoyer'); ?>
+                                                </div>
+                                                
+                                            
+                                        
                                         </div>
-                                    </div>
-                                </form>
-                            </div>
+
+                                    </form>
+
+                                </div>   
 
                         </div>
                     </div>
@@ -51,13 +62,3 @@
                 <!--Fin Formulaire-->
 
 
-</div>
-    </main>
-    <!--Main Content-->
-</div>
-<!--Main Container-->
-
-<script src="../js/script.js"></script>
-    
-</body>
-</html>

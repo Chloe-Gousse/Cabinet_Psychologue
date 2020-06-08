@@ -9,7 +9,7 @@
                         <div class="row">
 
                                 <div class="article-img">
-                                    <img src="../images/Thematiques/Articles/article_troubles_anxieux_resize.jpg" alt="article_troubles_anxieux">
+                                    <img src="./images/Thematiques/Articles/article_troubles_anxieux_resize.jpg" alt="article_troubles_anxieux">
                                 </div>
                             
                         <article>

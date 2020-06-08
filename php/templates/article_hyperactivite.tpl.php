@@ -10,7 +10,7 @@
                         <div class="row">
                             
                                 <div class="article-img">
-                                    <img src="../images/Thematiques/Articles/article_hyperactivite_resize" alt="article_hyperactivite">
+                                    <img src="./images/Thematiques/Articles/article_hyperactivite_resize" alt="article_hyperactivite">
                                 </div>
 
                             <article>

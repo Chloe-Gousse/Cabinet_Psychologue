@@ -1,7 +1,7 @@
 <section class="home section active" id="home">
                 <div class="container">
                     <div class="intro">
-                        <img src="../images/Accueil/photo.jpg" alt="photo" class="shadow-dark">
+                        <img src="./images/Accueil/photo.jpg" alt="photo" class="shadow-dark">
                             <h1>Véronique Goussé</h1>
                                 <h2>Psychologue - Docteur en psychologie</h2>
                                 <h2>Spécialiste du développement

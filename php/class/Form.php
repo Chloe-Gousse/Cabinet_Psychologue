@@ -36,8 +36,20 @@ class Form {
         return $this->input('email', $name, $label);
     }
 
-    public function subject($name, $label){
-        return $this->input('subject', $name, $label);
+    public function select($name, $label, $options){
+        $options_html = "";
+        $value = $this->getValue($name);
+        foreach($options as $k => $v){
+            $selected = '';
+            if($value == $k){
+                $selected = ' selected';
+            }
+            $options_html .= "<option value=\"$k\"$selected>$v</option>";
+        }
+        return "<div class=\"form-group\">
+            <label for=\"input$name\">$label</label>
+            <select name=\"$name\" class=\"form-control\" id=\"input$name\">$options_html</select>
+        </div>";
     }
 
     public function textarea($name, $label){
@@ -45,7 +57,7 @@ class Form {
     }
 
     public function submit($label){
-        return '<button type="submit" class="btn btn-primary">' . $label . '</button>';
+        return '<button type="submit" class="button text-right">' . $label . '</button>';
     }
 
 } 

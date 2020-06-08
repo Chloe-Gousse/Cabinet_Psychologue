@@ -13,7 +13,7 @@
                             <div class="theme-item padd-15">
                                 <div class="theme-item-inner shadow-dark">
                                     <div class="theme-img">
-                                        <img src="../images/Thematiques/autisme.jpg" alt="autisme">
+                                        <img src="./images/Thematiques/autisme.jpg" alt="autisme">
                                     </div>
                                     <div class="theme-info">
                                         
@@ -35,7 +35,7 @@
                             <div class="theme-item padd-15">
                                 <div class="theme-item-inner shadow-dark">
                                     <div class="theme-img">
-                                        <img src="../images/Thematiques/hyperactivite.png" alt="hyperactivité">
+                                        <img src="./images/Thematiques/hyperactivite.png" alt="hyperactivité">
                                     </div>
                                     <div class="theme-info">
                                         <h4 class="theme-title">Trouble de déficit de l'attention hyperactivité</h4>
@@ -53,7 +53,7 @@
                             <div class="theme-item padd-15">
                                 <div class="theme-item-inner shadow-dark">
                                     <div class="theme-img">
-                                        <img src="../images/Thematiques/trouble_anxieux.png" alt="troubles anxieux">
+                                        <img src="./images/Thematiques/trouble_anxieux.png" alt="troubles anxieux">
                                     </div>
                                     <div class="theme-info">
                                         <h4 class="theme-title">Troubles Anxieux</h4>
@@ -68,7 +68,7 @@
                             <div class="theme-item padd-15">
                                 <div class="theme-item-inner shadow-dark">
                                     <div class="theme-img">
-                                        <img src="../images/Thematiques/meditation.png" alt="meditation">
+                                        <img src="./images/Thematiques/meditation.png" alt="meditation">
                                     </div>
                                     <div class="theme-info">
                                         <h4 class="theme-title">Groupe de méditation</h4>
